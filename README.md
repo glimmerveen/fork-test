@@ -1,6 +1,6 @@
 # fork-test
 
-This test project demonstrates an issue between Surefire maven plugin and Pax Exam when using the Forked Test Container.
+This test project demonstrates an issue between Surefire maven plugin (2.22.0) and Pax Exam (4.12.0) when using the Forked Test Container.
 
 Building this project occasionally gets added an additional 30 seconds of execution time. This matches the timeout used by the Surefire maven plugin in its protocol with the test runners it forks off.
 
